@@ -60,7 +60,7 @@ dependencies {
     // Use JUnit test framework
     testImplementation 'junit:junit:4.12'
 
-    compile group: 'org.json', name: 'json', version: '20190722'
+    implementation group: 'org.json', name: 'json', version: '20190722'
     implementation 'com.github.bhlangonijr:chesslib:1.1.12'
 }
 

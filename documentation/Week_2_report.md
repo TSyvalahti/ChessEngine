@@ -1,5 +1,7 @@
 # Week 2 Report:
 
-Travis CI enabled to all my GitHub repositories including this one.
+I enabled Travis CI to all my GitHub repositories including this one. I familiarized myself with the template. I struggled quite a bit with getting the template working. I am using Windows 10 Pro, which happened to create some incompatibilites. Also the template was made for gradle earlier version, so I needed to update distributionUrl = https://services.gradle.org/distributions/gradle-7.5-all.zip in file gradle/wrapper/gradle-wrapper.properties. I use java version 18.0 with which earlier versions of gradle do not work (Compatibility matrix - https://docs.gradle.org/current/userguide/compatibility.html). This kind of a struggle was very frustrating as it did not feel productive at all. Fortunately in the end I was able to test the template in lichess against a computer. 
 
-Time spent: 1 h
+I tried to figure out a good way to use ChessEngine from command line. To run ChessEngine, I logged in to lichess.org, where I had created a bot account. After that I start a game against computer and opened a command prompt in folder ~/Documents/ChessEngine/template where I have script gradlew. Then I run command gradlew run --args="--lichess" and my bot starts to play random moves. In the end I did not figure a very good way to run my ChessEngine, so I created a command prompt shortcut on my Desktop. That shortcut opens Command Prompt in folder /Documents/ChessEngine/template and runs command gradlew run --args="--lichess". This way I can now run my bot simply by clicking the shortcut on my desktop after logging in to lichess.
+
+Time spent: 9 h
