@@ -4,4 +4,6 @@ I enabled Travis CI to all my GitHub repositories including this one. I familiar
 
 I tried to figure out a good way to use ChessEngine from command line. To run ChessEngine, I logged in to lichess.org, where I had created a bot account. After that I start a game against computer and opened a command prompt in folder ~/Documents/ChessEngine/template where I have script gradlew. Then I run command gradlew run --args="--lichess" and my bot starts to play random moves. In the end I did not figure a very good way to run my ChessEngine, so I created a command prompt shortcut on my Desktop. That shortcut opens Command Prompt in folder /Documents/ChessEngine/template and runs command gradlew run --args="--lichess". This way I can now run my bot simply by clicking the shortcut on my desktop after logging in to lichess.
 
-Time spent: 9 h
+I created file 'TMin.java' in folder 'java/datastructureproject' for my bot. That implements ChessBot interface. I tried to figure out the best way to write tests. Also I struggled with debugging. I wondered how should I test run and debug only my file TMin.java for example with test input [e2e4 e7e5] without running whole project.
+
+Time spent: 15 h
